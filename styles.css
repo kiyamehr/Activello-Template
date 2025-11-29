@@ -4,6 +4,7 @@ body {
   border-top: 1px solid transparent;
   background-color: #1c1c1a;
   font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 1000px;
   color: #dbcfb9;
 
   /* mind this!!!!!!! */
@@ -271,9 +272,7 @@ body {
   text-align: center;
   margin-left: 100px;
   /* margin-right: 50px; */
-
 }
-
 
 /* history  */
 .post-format {
@@ -369,9 +368,6 @@ body {
 }
 /* ----- */
 
-
-
-
 /* ----------------- main right ----------------- */
 
 .main-right {
@@ -380,7 +376,6 @@ body {
   /* background-color: red; */
   /* margin-left: 100px; */
   /* margin-right: 50px; */
-  
 }
 
 .right-main-hr {
@@ -388,7 +383,6 @@ body {
   text-align: start;
   margin: 20px 0;
   margin-top: 15px;
-  /* color: #6a446f; */
   border-color: transparent;
   border-top: 2px solid #6a446f;
 }
@@ -401,12 +395,9 @@ body {
 
 /* --------- about me --------- */
 
-
 .about-me {
   margin-top: -30px;
 }
-
-
 
 .about-me img {
   border-radius: 8px;
@@ -418,7 +409,7 @@ body {
 }
 
 .about-me p:last-child {
-  font-style: italic; 
+  font-style: italic;
   font-weight: bold;
 }
 
@@ -459,7 +450,7 @@ body {
 
 /* --------- recent posts --------- */
 
-#recent-posts{
+#recent-posts {
   margin-top: 80px;
 }
 
@@ -481,7 +472,6 @@ body {
   opacity: 55%;
 }
 
-
 .recent-posts-anchor {
   font-style: italic;
   color: #dacdb6;
@@ -496,7 +486,7 @@ body {
   font-size: 12px;
 }
 
-/* ------ *.
+/* ------ */
 
 /* --------- recent posts --------- */
 
@@ -508,19 +498,18 @@ body {
 
 #search input {
   width: 60%;
+  color: #eaeaed;
   background-color: transparent;
-  padding: 10px 20px;
+  padding: 10px 15px;
   border-radius: 4px 0 0 4px;
   font-size: 14px;
   border: 1px solid #3e3f3b;
   outline: 0;
   margin-right: 0;
-  z-index: 0;
 }
 
 #search button {
   padding: 10px 20px;
-  z-index: 0;
   border-radius: 0 4px 4px 0;
   border-color: transparent;
   background-color: #242422;
@@ -532,4 +521,45 @@ body {
   background-color: #8a4686;
   cursor: pointer;
   color: white;
+}
+
+/* ------ */
+
+/* --------- categories --------- */
+
+#categories {
+  margin-top: 80px;
+}
+
+.categories-div {
+  /* background-color: red; */
+  width: 90%;
+}
+
+.categories-div-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #3c3c38;
+}
+
+.categories-div-content p:last-child {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.categories-anchors {
+  color: #baaf9c;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.categories-anchors:hover {
+  color: #8a4686;
+}
+
+.categories-div-content p {
+  font-size: 14px;
 }
