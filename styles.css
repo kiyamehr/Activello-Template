@@ -455,3 +455,43 @@ body {
 .addresses-anchors:hover {
   color: #8a4686;
 }
+/* ----- */
+
+/* --------- recent posts --------- */
+
+#recent-posts{
+  margin-top: 80px;
+}
+
+.recent-posts-div {
+  display: grid;
+  grid-template-columns: 1fr 75%;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.recent-posts-div-left > a > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+  transition: opacity 0.3s ease;
+}
+
+.recent-posts-div-left > a > img:hover {
+  opacity: 55%;
+}
+
+
+.recent-posts-anchor {
+  font-style: italic;
+  color: #dacdb6;
+  transition: color 0.3s ease;
+}
+.recent-posts-anchor:hover {
+  color: #8a4686;
+}
+
+.recent-posts-date {
+  color: #9b8f7c;
+  font-size: 12px;
+}
