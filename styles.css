@@ -563,3 +563,16 @@ body {
 .categories-div-content p {
   font-size: 14px;
 }
+/* ----- */
+
+/* --------- anytext --------- */
+
+.anytext {
+  margin-top: 80px;
+}
+
+.anytext p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
