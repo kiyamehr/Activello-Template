@@ -8,7 +8,6 @@ I redesigned **Activello**, the classic HTML/CSS blog theme, in **dark mode** â€
 
 - Sleek, dark background with soft accent colors (#ae80ac, #b7a993)  
 - Smooth hover transitions and interactive elements  
-- Fully responsive layout for posts, galleries, and sidebar widgets  
 - Enhanced typography using **Playwrite US Trad Guides**, **Lato**, and **Merriweather**  
 - Modern UI elements: dropdowns, search bars, post previews, and more  
 
