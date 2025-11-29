@@ -20,7 +20,6 @@ This isn’t just a theme—it's an **immersive browsing experience**, designed 
 - ✅ Featured image layouts & gallery support  
 - ✅ Modern hover effects for links and buttons  
 - ✅ Sidebar widgets for recent posts, categories, search, and social links  
-- ✅ Fully responsive grid-based main content layout  
 - ✅ Smooth typography integration
 
 ## Screenshots
