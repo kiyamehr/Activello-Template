@@ -4,11 +4,14 @@ body {
   border-top: 1px solid transparent;
   background-color: #1c1c1a;
   font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 1000px;
   color: #dbcfb9;
 
   /* mind this!!!!!!! */
   margin-bottom: 20px;
+}
+
+html, body {
+  margin: 0;
 }
 
 /* fonts  */
@@ -30,6 +33,22 @@ body {
   /* font-weight: <weight>; */
   font-style: normal;
   font-variation-settings: "wdth" 100;
+}
+
+.addresses {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 50px;
+  gap: 30px;
+  margin-right: 130px;
+  margin-top: 15px;
+}
+
+.addresses li {
+  list-style: none;
 }
 
 /* ---- */
@@ -106,16 +125,15 @@ body {
   background-color: transparent;
   color: #dbcfb9;
   font-size: 16px;
+  margin-top: -10px;
   border: none;
-  border-radius: 8px;
-  transition: background-color 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
-  border-radius: 8px;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -124,7 +142,6 @@ body {
   position: absolute;
   background-color: #1c1c1a;
   border: 1px solid #dbcfb9;
-  border-radius: 8px;
   min-width: 98px;
   z-index: 1;
 }
@@ -145,7 +162,7 @@ body {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #ae80ac;
+  color: #ae80ac;
 }
 
 /* ----- */
@@ -434,6 +451,25 @@ body {
   margin-bottom: 15px;
 }
 
+/* -------- */ 
+
+/* --------- older posts --------- */
+
+#older-posts {
+  margin-top: 60px;
+  text-align: start;
+}
+
+#older-posts a {
+  color: #baaf9c;
+  font-size: 14px;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+#older-posts a:hover {
+  color: #8a4686;
+}
+
 
 
 
@@ -499,22 +535,6 @@ body {
 
 #follow-me {
   margin-top: 50px;
-}
-
-#addresses {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  min-width: 50px;
-  gap: 30px;
-  margin-right: 130px;
-  margin-top: 15px;
-}
-
-#addresses li {
-  list-style: none;
 }
 
 .addresses-anchors {
@@ -666,4 +686,23 @@ body {
 
 #adsense-section h3 {
   text-transform: uppercase;
+}
+
+/* -------------------------------------------------------------- footer --------------------------------------------- */
+
+#footer {
+  background-color: #242422;
+  margin-top: 80px;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+.footer-detail  {
+  margin-right: 70px;
+  font-size: 12px;
+  font-weight: 300;
 }
