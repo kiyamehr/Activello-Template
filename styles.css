@@ -1,0 +1,457 @@
+body {
+  margin: 0;
+  width: 100%;
+  border-top: 1px solid transparent;
+  background-color: #1c1c1a;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #dbcfb9;
+
+  /* mind this!!!!!!! */
+  margin-bottom: 20px;
+}
+
+/* fonts  */
+.playwrite-us-trad-guides-regular {
+  font-family: "Playwrite US Trad Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-font {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* ---- */
+
+.hr {
+  margin: 0;
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 2px solid #1c1c1a;
+}
+
+.small-hr {
+  width: 40px;
+}
+
+.anchor-decoration-none {
+  text-decoration: none;
+}
+
+#selected {
+  color: #ae80ac !important;
+}
+
+#header {
+  display: grid;
+  background-color: #1c1c1a;
+  grid-template-columns: 60% 1fr;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #22221f;
+}
+
+#header section {
+  gap: 20px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  width: 70%;
+  margin-right: 100px;
+  grid-column: 1;
+}
+
+.header {
+  padding: 20px 40px;
+}
+
+/* anchor elemnts ------- */
+#header-section a {
+  text-decoration: none;
+  color: #eaddc6;
+  display: inline-block;
+  padding-bottom: 2px;
+  background-image: linear-gradient(#ae80ac 0 0);
+  background-position: 0 100%;
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s, background-position 0s 0.3s, color 0.3s;
+}
+
+#header-section a:hover {
+  background-position: 100% 100%;
+  color: #ae80ac;
+  background-size: 100% 2px;
+}
+/* ------ */
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: transparent;
+  color: #dbcfb9;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1c1c1a;
+  border: 1px solid #dbcfb9;
+  border-radius: 8px;
+  min-width: 98px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  border: 1px solid #dbcfb9;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #ae80ac;
+}
+
+/* ----- */
+#header-form {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#header-form input {
+  width: 60%;
+  padding: 6px 11px;
+  background-color: #2b2a33;
+  color: #dbcfb9;
+  border: none;
+  border-radius: 8px;
+  margin-right: 10px;
+  transition: outline 0.3s ease;
+}
+
+#header-form input:focus {
+  outline: 1px solid #ae80ac;
+}
+
+#header-form i {
+  transition: color 0.3s ease;
+}
+#header-form i:hover {
+  color: #ae80ac;
+  cursor: pointer;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+/* LOGO  */
+
+.logo {
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin-top: 100px;
+  padding-top: 20px;
+}
+
+.logo p {
+  color: #b7a993;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+/* template-readmore */
+
+.template-readmore {
+  background-image: url("https://colorlibhub.com/activello/wp-content/uploads/sites/57/2012/03/photo-1437915015400-137312b61975-1920x550.jpg.webp");
+  margin-top: -30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.template-readmore a {
+  text-decoration: none;
+  color: #fff6df;
+  /* font-weight: bold; */
+}
+
+#template-us-font {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+#readmore-anchor {
+  border-left: 2px solid #373734;
+  border-right: 2px solid #373734;
+  border-radius: 2px;
+  padding: 0 10px;
+}
+
+.template-readmore-content {
+  transition: color 0.4s ease;
+}
+.template-readmore-content:hover {
+  color: #ae80ac;
+}
+
+/* image select */
+
+.image-select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.image-select {
+  color: #373734;
+  /* margin-bottom: -130px; */
+  font-size: 12px;
+}
+
+.selected {
+  background-color: #1c1c1a;
+  border-radius: 10000px;
+}
+/* ---- */
+
+/* -------------------------------------------------------------------------------------------------- */
+/* main content  */
+
+.main-content {
+  display: grid;
+  grid-template-columns: 65% 1fr;
+  gap: 20px;
+}
+
+/* ----------------- main left ----------------- */
+
+.main-left {
+  text-align: center;
+  margin-left: 100px;
+  /* margin-right: 50px; */
+
+}
+
+
+/* history  */
+#post-format {
+  text-decoration: none;
+  color: #b7a993;
+  display: inline-block;
+  padding-bottom: 2px;
+  background-image: linear-gradient(#6a446f 0 0);
+  background-position: 0 100%;
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+
+  font-size: 14px;
+
+  transition: background-size 0.3s, background-position 0s 0.3s, color 0.3s;
+}
+
+#post-format:hover {
+  background-position: 100% 100%;
+  color: #8a4686;
+  background-size: 100% 2px;
+}
+
+#history-hr {
+  border-top: 2px solid #6a446f;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10;
+}
+
+.history h1 {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.history > h1 > a {
+  color: #b3a795;
+  transition: color 0.3s ease;
+  font-style: italic;
+}
+
+.history > h1 > a:hover {
+  color: #8a4686;
+}
+
+#author-born-name-p {
+  font-size: 14px;
+}
+.author-date {
+  color: #b7a993;
+  text-decoration: underline;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+.author-date:hover {
+  color: #8a4686;
+}
+
+#history-image {
+  width: 100%;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+#history-bio {
+  text-align: start;
+  color: #b7a993;
+}
+
+#history-readmore {
+  color: #b7a993;
+  border-left: 2px solid #736959;
+  border-right: 2px solid #736959;
+  border-radius: 2px;
+  padding: 0 10px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+#history-readmore:hover {
+  color: #8a4686;
+}
+
+.seperator-hr {
+  border: none;
+  display: block;
+  border-top: 1px solid #42423e;
+  margin: 40px 0;
+  margin-top: 50px;
+  width: 100%;
+}
+/* ----- */
+
+
+
+
+/* ----------------- main right ----------------- */
+
+.main-right {
+  text-align: start;
+  width: 100%;
+  /* background-color: red; */
+  /* margin-left: 100px; */
+  /* margin-right: 50px; */
+  
+}
+
+.right-main-hr {
+  width: 13%;
+  text-align: start;
+  margin: 20px 0;
+  margin-top: 15px;
+  /* color: #6a446f; */
+  border-color: transparent;
+  border-top: 2px solid #6a446f;
+}
+
+.right-main-headers {
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 350;
+}
+
+/* --------- about me --------- */
+
+
+.about-me {
+  margin-top: -30px;
+}
+
+
+
+.about-me img {
+  border-radius: 8px;
+}
+
+.about-me p {
+  color: #b7a993;
+  font-size: 14px;
+}
+
+.about-me p:last-child {
+  font-style: italic; 
+  font-weight: bold;
+}
+
+/* ----- */
+
+/* --------- follow me --------- */
+
+#follow-me {
+  margin-top: 50px;
+}
+
+#addresses {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 50px;
+  gap: 30px;
+  margin-right: 130px;
+  margin-top: 15px;
+}
+
+#addresses li {
+  list-style: none;
+}
+
+.addresses-anchors {
+  color: #b7a993;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.addresses-anchors:hover {
+  color: #8a4686;
+}
