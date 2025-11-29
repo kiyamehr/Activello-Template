@@ -276,7 +276,7 @@ body {
 
 
 /* history  */
-#post-format {
+.post-format {
   text-decoration: none;
   color: #b7a993;
   display: inline-block;
@@ -291,13 +291,13 @@ body {
   transition: background-size 0.3s, background-position 0s 0.3s, color 0.3s;
 }
 
-#post-format:hover {
+.post-format:hover {
   background-position: 100% 100%;
   color: #8a4686;
   background-size: 100% 2px;
 }
 
-#history-hr {
+.formats-hr {
   border-top: 2px solid #6a446f;
   text-align: center;
   margin-left: auto;
@@ -306,18 +306,18 @@ body {
   margin-bottom: 10;
 }
 
-.history h1 {
+.formats h1 {
   margin: 0;
   margin-top: 10px;
 }
 
-.history > h1 > a {
+.formats > h1 > a {
   color: #b3a795;
   transition: color 0.3s ease;
   font-style: italic;
 }
 
-.history > h1 > a:hover {
+.formats > h1 > a:hover {
   color: #8a4686;
 }
 
@@ -334,18 +334,18 @@ body {
   color: #8a4686;
 }
 
-#history-image {
+.formats-image {
   width: 100%;
   border-radius: 8px;
   margin: 10px 0;
 }
 
-#history-bio {
+.formats-bio {
   text-align: start;
   color: #b7a993;
 }
 
-#history-readmore {
+.formats-readmore {
   color: #b7a993;
   border-left: 2px solid #736959;
   border-right: 2px solid #736959;
@@ -355,7 +355,7 @@ body {
   transition: color 0.3s ease;
 }
 
-#history-readmore:hover {
+.formats-readmore:hover {
   color: #8a4686;
 }
 
