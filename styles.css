@@ -274,7 +274,7 @@ body {
   /* margin-right: 50px; */
 }
 
-/* history  */
+/* --------- formats --------- */
 .post-format {
   text-decoration: none;
   color: #b7a993;
@@ -342,6 +342,7 @@ body {
 .formats-bio {
   text-align: start;
   color: #b7a993;
+  margin-bottom: 30px;
 }
 
 .formats-readmore {
@@ -368,7 +369,86 @@ body {
 }
 /* ----- */
 
-/* ----------------- main right ----------------- */
+/* --------- content --------- */
+
+#content {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  row-gap: 20px;
+}
+
+.content-header-text {
+  color: #9b8f7c;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+.content-header-text:hover {
+  color: #8a4686;
+}
+
+.content-divs h2 a{
+  color: #b3a795;
+  transition: color 0.3s ease;
+}
+.content-divs h2 a:hover {
+  color: #8a4686;
+}
+
+
+.content-author-born-name-p {
+  font-size: 14px;
+}
+
+.content-author-date {
+  color: #9b8f7c;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.content-author-date:hover {
+  color: #8a4686;
+}
+
+.content-image-anchor img{
+  border-radius: 4px;
+  margin: 20px 0;
+  margin-bottom: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.content-image-anchor img:hover {
+  opacity: 55%;
+}
+
+.contents-bio {
+  text-align: start;
+  color: #b7a993;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+/* line breaker  */
+.content-break {
+  margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------- main right --------------------------------------------- */
 
 .main-right {
   text-align: start;
@@ -576,3 +656,14 @@ body {
   font-weight: 300;
 }
 
+/* ----- */
+
+/* --------- adsense --------- */
+
+#adsense-section {
+  margin-top: 80px;
+}
+
+#adsense-section h3 {
+  text-transform: uppercase;
+}
