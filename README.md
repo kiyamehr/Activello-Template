@@ -55,9 +55,6 @@ git clone https://github.com/kiyamehr/activello-dark-mode.git
 
 ---
 
-> “Darkness is the canvas; design is the brush.”
-> — Kiamehr Moradi
-
 ```
 
 
